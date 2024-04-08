@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.29.0)
 project(single_number VERSION 0.0.1
     DESCRIPTION "quick_sort"
     LANGUAGES CXX)
@@ -6,8 +6,8 @@ project(single_number VERSION 0.0.1
 # Disable response files
 set(CMAKE_CXX_USE_RESPONSE_FILE_FOR_INCLUDES OFF)
 
-# Enable C++20 compiler support
-set(CMAKE_CXX_STANDARD 20)
+# Enable C++23 compiler support
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
