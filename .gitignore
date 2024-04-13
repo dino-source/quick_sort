@@ -15,3 +15,6 @@ app
 
 # Ignore third-parties
 external
+
+# Ignore CMake cache
+.cache
